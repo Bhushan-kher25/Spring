@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add</title>
+  
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   -->
+
+</head>
+
+<body>
+  <form method="post" action="localhost/127.0.0.1/php.php">
+    <br>
+    Name:<input type="text" name="nm"><br>
+    <br>
+    Email:<input type="email" name="em"><br>
+    <br>
+   
+    <div class="mb-3" name="yr">
+      <label for="disabledSelect" class="form-label">Select year</label>
+      <select id="disabledSelect" class="form-select">
+        <option>select</option>
+        <option>1st year</option>
+        <option>2nd year</option>
+        <option>3rd year</option>
+        <option>Final year</option>
+      </select>
+    </div>
+    <div class="mb-3" name="ma">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="FieldsetCheck">
+        <label class="form-check-label" for="FieldsetCheck">
+          Male
+        </label>
+      </div>
+    </div>
+    <div class="mb-3" name="fe">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="FieldsetCheck">
+        <label class="form-check-label" for="FieldsetCheck">
+          Female
+        </label>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary" name="sb">Submit</button>
+
+  </form>
+
+
+  
+ 
+</body>
+
+</html>
